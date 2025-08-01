@@ -11,7 +11,7 @@
 <div class="container">
     <h1 class="text-center mt-4 mb-5">Bootstrap Grid System Real-World Challenges</h1>
     <h2>1. Equal Width Columns</h2>
-    <p>Scenario: A product website feature section with 3 equally spaced</p>
+    <p><span class="fw-bold">Scenario:</span>A product website feature section with 3 equally spaced</p>
 
     <div class="row text-center mb-4 border border-0">
         <div class="col">
@@ -32,19 +32,76 @@
     </div>
 
     <h2>2. Fixed Width Columns</h2>
-    <p>Scenario: News site layout with sidebar and main content.</p>
+    <p><span class="fw-bold">Scenario:</span> News site layout with sidebar and main content.</p>
     <div class="row">
         <div class="col-4 bg-light">
             <h5>Sidebar</h5>
-            <a href="">Home</a>
-            <a href="">Politics</a>
-            <a href="">Tech</a>
+            <nav class="nav flex-column">
+                <a class="nav-link active" href="#">Home</a>
+                <a class="nav-link" href="#">Politics</a>
+                <a class="nav-link" href="#">Tech</a>
+            </nav>
         </div>
         <div class="col-8">
             <h4>Main Article</h4>
             <p>This is the main news content. It is given more width for better readability.</p>
         </div>
     </div>
+    <h2>3. Responsive Columns</h2>
+    <p><span class="fw-bold">Scenario:</span>Travel blog card layout.</p>
+    <div class="row g-xl-4">
+        <div class="col d-flex justify-content-between mb-4">
+            <div class="card" style="width: 18rem;">
+                <img src="tokyo.jpg" class="card-img-top" alt="paris">
+                <div class="card-body">
+                    <p class="card-text">Paris Adventure</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="paris.jpg" class="card-img-top" alt="tokyo">
+                <div class="card-body">
+                    <p class="card-text">Tokyo Nights</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="cross.jpg" class="card-img-top" alt="cross">
+                <div class="card-body">
+                    <p class="card-text">Zanzibar Escape</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="bike.jpg" class="card-img-top" alt="bike">
+                <div class="card-body">
+                    <p class="card-text">Dubai Luxury</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h2>4. Nested Columns</h2>
+    <p><span class="fw-bold">Scenario:</span> Team member profile card with image and text.</p>
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-4 offset-md-3">
+                <div class="card p-3">
+                    <div class="row g-3 align-items-center">
+                        <div class="col-auto">
+                            <img src="sand.jpg" alt="sand"
+                                class="img-fluid rounded-circle">
+                        </div>
+                        <div class="col">
+                            <h5 class="mb-0">Jane Doe</h5>
+                            <small class="text-muted">UI/UX Designer</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<h2>5. Centered Columns</h2>
+<p><span class="fw-bold">Scenario:</span> Pricing page with centered single card.</p>
+  
+
+
 </div>
 
 <body>
