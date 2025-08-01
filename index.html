@@ -35,7 +35,7 @@
     <p><span class="fw-bold">Scenario:</span> News site layout with sidebar and main content.</p>
     <div class="row">
         <div class="col-4 bg-light">
-            <h5>Sidebar</h5>
+            <h4>Sidebar</h4>
             <nav class="nav flex-column">
                 <a class="nav-link active" href="#">Home</a>
                 <a class="nav-link" href="#">Politics</a>
@@ -49,39 +49,46 @@
     </div>
     <h2>3. Responsive Columns</h2>
     <p><span class="fw-bold">Scenario:</span>Travel blog card layout.</p>
-    <div class="row g-xl-4">
-        <div class="col d-flex justify-content-between mb-4">
-            <div class="card" style="width: 16rem;">
+    <div class="row g-3 mb-4">
+        <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card">
                 <img src="tokyo.jpg" class="card-img-top" alt="paris">
                 <div class="card-body">
                     <p class="card-text">Paris Adventure</p>
                 </div>
             </div>
-            <div class="card" style="width: 16rem;">
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card">
                 <img src="paris.jpg" class="card-img-top" alt="tokyo">
                 <div class="card-body">
                     <p class="card-text">Tokyo Nights</p>
                 </div>
             </div>
-            <div class="card" style="width: 16rem;">
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card">
                 <img src="cross.jpg" class="card-img-top" alt="cross">
                 <div class="card-body">
                     <p class="card-text">Zanzibar Escape</p>
                 </div>
             </div>
-            <div class="card" style="width: 16rem;">
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card">
                 <img src="bike.jpg" class="card-img-top" alt="bike">
                 <div class="card-body">
                     <p class="card-text">Dubai Luxury</p>
                 </div>
             </div>
         </div>
+
     </div>
     <h2>4. Nested Columns</h2>
     <p><span class="fw-bold">Scenario:</span> Team member profile card with image and text.</p>
     <div class="container mt-4">
         <div class="row">
-            <div class="col-4">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                 <div class="card p-3 mb-4">
                     <div class="row g-3 align-items-center">
                         <div class="col-auto">
@@ -99,7 +106,7 @@
     <h2>5. Centered Columns</h2>
     <p><span class="fw-bold">Scenario:</span> Pricing page with centered single card.</p>
     <div class="row">
-        <div class="col-8 col-sm-6 mb-3 mb-sm-0 mx-auto p-2" style=width:600px;>
+        <div class="col-12 col-sm-6 mb-3 mb-sm-0 mx-auto p-2" style=width:600px;>
             <div class="card align-items-center">
                 <div class="card-body">
                     <h5 class="card-title">Pro Plan</h5>
